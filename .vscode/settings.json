@@ -1,0 +1,42 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+
+  "files.insertFinalNewline": true,
+
+  "C_Cpp.default.cStandard": "c99",
+  "C_Cpp.default.includePath": ["${workspaceFolder}/**/include", "${workspaceFolder}/build/**"],
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, BreakStringLiterals: false, ColumnLimit: 100, ContinuationIndentWidth: 4, IndentWidth: 4 }",
+  "C_Cpp.doxygen.generatedStyle": "/**",
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+
+  "evenBetterToml.schema.associations": { "ruff.toml": "http://json.schemastore.org/ruff" },
+
+  "prettier.printWidth": 100,
+
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.fixAll": ["source.unusedImports", "source.convertImportFormat"],
+  "python.analysis.typeCheckingMode": "strict",
+
+  "ruff.configuration": "./ruff.toml",
+  "ruff.lineLength": 100,
+
+  "[c]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  },
+
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4
+  }
+}

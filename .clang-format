@@ -1,0 +1,6 @@
+BasedOnStyle: Google
+
+BreakStringLiterals: false
+ColumnLimit: 100
+ContinuationIndentWidth: 4
+IndentWidth: 4
