@@ -1,0 +1,17 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Compiled Binary
+**/a.exe*
+**/a.out*
+
+# Python Environment
+.venv/
+
+# Generated Output
+**/results.txt
+
+# Miscellaneous
+**/.DS_Store
