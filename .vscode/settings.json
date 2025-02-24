@@ -8,7 +8,6 @@
   // C Support
   "C_Cpp.default.cStandard": "c99",
   "C_Cpp.default.includePath": ["${workspaceFolder}/**/include", "${workspaceFolder}/build/**"],
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, BreakStringLiterals: false, ColumnLimit: 100, ContinuationIndentWidth: 4, IndentWidth: 4 }",
   "C_Cpp.doxygen.generatedStyle": "/**",
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 
@@ -25,7 +24,6 @@
 
   // Ruff Extension
   "ruff.configuration": "./ruff.toml",
-  "ruff.lineLength": 100,
 
   // C Files Only Settings
   "[c]": {
