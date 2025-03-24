@@ -27,20 +27,12 @@ gmake CC=gcc-14 macos
 
 ## Usage
 
-### Windows
-
 > [!WARNING]
-> This CLI game uses UTF-8 characters, which Powershell does not fully support yet. To allow Powershell to display UTF-8 characters, run this script before running the game:
+> This CLI game uses UTF-8 characters, which Powershell (in Windows) does not fully support yet. To allow Powershell to display UTF-8 characters, run this script before running the game:
 >
 > ```pwsh
 > $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 > ```
-
-```bash
-.\a.exe
-```
-
-### macOS
 
 ```bash
 ./a.out
