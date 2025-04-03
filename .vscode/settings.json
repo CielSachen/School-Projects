@@ -7,9 +7,12 @@
 
   // C Support
   "C_Cpp.default.cStandard": "c99",
-  "C_Cpp.default.includePath": ["${workspaceFolder}/**/include", "${workspaceFolder}/build/**"],
+  "C_Cpp.default.includePath": ["${workspaceFolder}/**/build", "${workspaceFolder}/**/include"],
   "C_Cpp.doxygen.generatedStyle": "/**",
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+
+  // CMake Support
+  "cmake.sourceDirectory": ["${workspaceFolder}/ccprog1"],
 
   // Python Support
   "python.analysis.autoImportCompletions": true,

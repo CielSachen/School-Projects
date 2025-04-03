@@ -3,9 +3,9 @@
 !.vscode/extensions.json
 !.vscode/settings.json
 
-# Compiled Binary
-**/a.exe*
-**/a.out*
+# CMake
+**/bin/
+**/build/
 
 # Python Environment
 .venv/

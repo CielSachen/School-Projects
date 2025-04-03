@@ -7,22 +7,16 @@ A turn-based CLI-based game where you trade with various ethnic groups to become
 
 ## Compilation
 
-> [!TIP]
-> Replace the `CC` (C compiler) value with the compiler of your choice.
-
-### Windows
+Set up the platform-specific build process:
 
 ```bash
-make CC=gcc windows
+cmake -B ./build/ -S ./
 ```
 
-### macOS
-
-> [!IMPORTANT]
-> The Homebrew installed versions of gcc and GNU make are named `gcc-14` and `gmake`, respectively.
+Build and compile the libraries and the program:
 
 ```bash
-gmake CC=gcc-14 macos
+cmake --build ./build --target tides_of_manila
 ```
 
 ## Usage
@@ -35,7 +29,12 @@ gmake CC=gcc-14 macos
 > ```
 
 ```bash
-./a.out
+# For Linux systems:
+./bin/tides_of_manila.out
+# For macOS systems:
+./bin/tides_of_manila
+# For Windows systems:
+./bin/tides_of_manila.exe
 ```
 
 ---

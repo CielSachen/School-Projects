@@ -1,16 +1,16 @@
 # Checking-in and Checking-out
-*             text=auto
-*.c           text diff=cpp
-*.h           text diff=cpp
-*.jpg         binary
-*.json        text
-*.md          text diff=markdown
-*.png         binary
-*.py          text diff=python
-*.toml        text
-*.txt         text
-.clang-format text
-Makefile      text
+*              text=auto
+*.c            text diff=cpp
+*.h            text diff=cpp
+*.jpg          binary
+*.json         text
+*.md           text diff=markdown
+*.png          binary
+*.py           text diff=python
+*.toml         text
+*.txt          text
+.clang-format  text
+CMakeLists.txt text
 
 # Archive Creation
 .gitattributes export-ignore
