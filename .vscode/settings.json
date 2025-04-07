@@ -3,6 +3,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
+  "files.associations": { "settings.prefs": "java-properties" },
   "files.insertFinalNewline": true,
 
   // C Support
@@ -13,6 +14,10 @@
 
   // CMake Support
   "cmake.sourceDirectory": ["${workspaceFolder}/ccprog1"],
+
+  // Java Support
+  "java.settings.url": "./.vscode/settings.prefs",
+  "java.format.settings.profile": "GoogleStyle",
 
   // Python Support
   "python.analysis.autoImportCompletions": true,
@@ -36,6 +41,17 @@
       "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  },
+
+  // Java Files Only Settings
+  "[java]": {
+    // Text Editor
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "redhat.java",
     "editor.tabSize": 4
   },
 

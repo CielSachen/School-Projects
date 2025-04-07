@@ -2,10 +2,12 @@
 *              text=auto
 *.c            text diff=cpp
 *.h            text diff=cpp
+*.java         text diff=java
 *.jpg          binary
 *.json         text
 *.md           text diff=markdown
 *.png          binary
+*.prefs        text
 *.py           text diff=python
 *.toml         text
 *.txt          text

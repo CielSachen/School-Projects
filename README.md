@@ -10,3 +10,6 @@ My coding or programming projects for (senior) high school and university subjec
   - [Logic Formulation and Introductory Programming (CCPROG1)](./ccprog1/)
     - Language: C
     - Type: Machine Project
+  - [Discrete Structures (CCDSTRU)](./ccdstru/)
+    - Language: Java
+    - Type: Machine Project

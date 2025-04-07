@@ -2,10 +2,14 @@
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+!.vscode/settings.prefs
 
 # CMake
 **/bin/
 **/build/
+
+# Java
+**/*.class
 
 # Python Environment
 .venv/

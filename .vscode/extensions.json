@@ -8,6 +8,7 @@
     "ms-vscode.cpptools-extension-pack",
     "redhat.vscode-yaml",
     "tamasfe.even-better-toml",
+    "vscjava.vscode-java-pack",
 
     // Intellicode
     "visualstudioexptteam.intellicode-api-usage-examples",
