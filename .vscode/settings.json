@@ -16,7 +16,7 @@
   "cmake.sourceDirectory": ["${workspaceFolder}/ccprog1"],
 
   // Java Support
-  "java.settings.url": "./.vscode/settings.prefs",
+  "java.settings.url": "${workspaceFolder}/.vscode/settings.prefs",
   "java.format.settings.profile": "GoogleStyle",
 
   // Python Support
@@ -31,7 +31,7 @@
   "prettier.printWidth": 100,
 
   // Ruff Extension
-  "ruff.configuration": "./ruff.toml",
+  "ruff.configuration": "${workspaceFolder}/ruff.toml",
 
   // C Files Only Settings
   "[c]": {
