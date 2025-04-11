@@ -32,7 +32,7 @@ A game based on the classic Tic-Tac-Toe, but with modifications to add a third p
   | 1   |     |     |     | **X** |
   |     | 1   | 2   | 3   | 4     |
 
-- Meanwhile, the third player will be remove marks (or stealing) after the two players’ turn. They win if they prevent both players from forming a pattern.
+- Meanwhile, the third player will be remove marks (or stealing) after the two players' turn. They win if they prevent both players from forming a pattern.
 
 ## Compilation
 

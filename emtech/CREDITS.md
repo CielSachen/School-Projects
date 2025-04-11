@@ -10,4 +10,4 @@
   - **Anton Pangilinan**:\
     Chemistry concepts validation and creating the report document.
   - **Josef Plata**:\
-    Creating the project’s logo.
+    Creating the project's logo.
