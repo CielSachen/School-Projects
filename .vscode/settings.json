@@ -13,7 +13,7 @@
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 
   // CMake Support
-  "cmake.sourceDirectory": ["${workspaceFolder}/ccprog1"],
+  "cmake.sourceDirectory": ["${workspaceFolder}/ccprog1", "${workspaceFolder}/ccprog2"],
 
   // Java Support
   "java.settings.url": "${workspaceFolder}/.vscode/settings.prefs",

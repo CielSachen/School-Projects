@@ -13,3 +13,6 @@ My coding or programming projects for (senior) high school and university subjec
   - [Discrete Structures (CCDSTRU)](./ccdstru/)
     - Language: Java
     - Type: Machine Project
+  - [Programming with Data Structures (CCPROG2)](./ccprog2/)
+    - Language: C
+    - Type: Machine Project
