@@ -28,7 +28,7 @@
   "evenBetterToml.schema.associations": { "ruff.toml": "http://json.schemastore.org/ruff" },
 
   // Prettier Extension
-  "prettier.printWidth": 100,
+  "prettier.configPath": "./.prettierrc",
 
   // Ruff Extension
   "ruff.configuration": "${workspaceFolder}/ruff.toml",
