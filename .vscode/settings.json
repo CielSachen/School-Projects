@@ -1,42 +1,42 @@
 {
-  // Text Editor
+  /* Text Editor */
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "files.associations": { "settings.prefs": "java-properties" },
   "files.insertFinalNewline": true,
 
-  // C Support
+  /* C Support */
   "C_Cpp.default.cStandard": "c99",
   "C_Cpp.default.includePath": ["${workspaceFolder}/**/build", "${workspaceFolder}/**/include"],
   "C_Cpp.doxygen.generatedStyle": "/**",
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 
-  // CMake Support
+  /* CMake Support */
   "cmake.sourceDirectory": ["${workspaceFolder}/ccprog1", "${workspaceFolder}/ccprog2"],
 
-  // Java Support
+  /* Java Support */
   "java.settings.url": "${workspaceFolder}/.vscode/settings.prefs",
   "java.format.settings.profile": "GoogleStyle",
 
-  // Python Support
+  /* Python Support */
   "python.analysis.autoImportCompletions": true,
   "python.analysis.fixAll": ["source.unusedImports", "source.convertImportFormat"],
   "python.analysis.typeCheckingMode": "strict",
 
-  // TOML Support
-  "evenBetterToml.schema.associations": { "ruff.toml": "http://json.schemastore.org/ruff" },
+  /* TOML Support */
+  "evenBetterToml.schema.associations": { "ruff.toml": "http:/*json.schemastore.org/ruff" },
 
-  // Prettier Extension
+  /* Prettier Extension */
   "prettier.configPath": "./.prettierrc",
 
-  // Ruff Extension
+  /* Ruff Extension */
   "ruff.configuration": "${workspaceFolder}/ruff.toml",
   "ruff.configurationPreference": "filesystemFirst",
 
-  // C Files Only Settings
+  /* C Files Only Settings */
   "[c]": {
-    // Text Editor
+    /* Text Editor */
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
@@ -45,9 +45,9 @@
     "editor.tabSize": 4
   },
 
-  // Java Files Only Settings
+  /* Java Files Only Settings */
   "[java]": {
-    // Text Editor
+    /* Text Editor */
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
@@ -56,9 +56,9 @@
     "editor.tabSize": 4
   },
 
-  // Python Files Only Settings
+  /* Python Files Only Settings */
   "[python]": {
-    // Text Editor
+    /* Text Editor */
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
