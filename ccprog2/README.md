@@ -18,6 +18,13 @@ cmake --build ./build --target simple_translator
 
 ## Usage
 
+> [!WARNING]
+> This CLI game uses UTF-8 characters, which Powershell (in Windows) does not fully support yet. To allow Powershell to display UTF-8 characters, run this script before running the game:
+>
+> ```pwsh
+> $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
+> ```
+
 ```bash
 # For Linux systems:
 ./bin/simple_translator.out
