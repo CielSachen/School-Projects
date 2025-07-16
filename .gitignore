@@ -1,0 +1,12 @@
+# Editor Settings
+.vscode/
+
+# CMake Build
+**/bin/
+**/build/
+
+# Java Bytecode
+**/*.class
+
+# Miscellaneous
+**/.DS_Store
