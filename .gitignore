@@ -1,0 +1,12 @@
+# Editor Settings
+.vscode/
+
+# Build Outputs
+**/build/
+**/target/
+
+# Executables
+**/bin/
+
+# Miscellaneous
+**/.DS_Store

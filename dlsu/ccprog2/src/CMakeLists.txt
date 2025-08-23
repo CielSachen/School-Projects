@@ -1,0 +1,9 @@
+add_executable(simple-translator
+  main.c
+  data_management.c
+  data_management.h
+  io.c
+  io.h
+  translation.c
+  translation.h
+)

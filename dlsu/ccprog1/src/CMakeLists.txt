@@ -1,0 +1,13 @@
+add_executable(tides-of-manila
+  main.c
+  console.c
+  console.h
+  prompts.c
+  prompts.h
+  text_graphics.c
+  text_graphics.h
+  trading.c
+  trading.h
+  weather.c
+  weather.h
+)

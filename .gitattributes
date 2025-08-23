@@ -1,0 +1,17 @@
+# Checking-in and Checking-out
+*             text=auto
+*.c           text diff=cpp
+*.h           text diff=cpp
+*.java        text diff=java
+*.md          text diff=markdown
+*.png         binary
+*.py          text diff=python
+*.toml        text
+*.txt         text
+*.xml         text
+.clang-format text
+.editorconfig text
+
+# Archive Creation
+.gitattributes export-ignore
+.gitignore     export-ignore

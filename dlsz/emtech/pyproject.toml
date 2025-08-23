@@ -1,0 +1,29 @@
+[project]
+name = "chemtech-codex"
+version = "1.0.0"
+dependencies = ["prettytable==3.16.0"]
+requires-python = ">=3.10"
+authors = [{ name = "Raphael Panaligan" }]
+description = "A calculator program that integrates and solves general chemistry concepts."
+readme = "docs/README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE.txt"]
+keywords = ["python", "python3", "school", "school-project"]
+classifiers = [
+  "Private :: Do Not Upload",
+  "Development Status :: 7 - Inactive",
+  "Environment :: Console",
+  "License :: OSI Approved :: GNU Affero General Public License v3",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Education",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/CielSachen/School-Projects/tree/main/emtech#readme"
+Repository = "https://github.com/CielSachen/School-Projects.git"
