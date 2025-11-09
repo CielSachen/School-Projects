@@ -1,3 +1,6 @@
+> [!WARNING]
+> I will begin to split off the contents of this monorepo into their own separate repositories.
+
 # School Projects
 
 My coding projects for senior high school and university subjects and courses. The projects are programmed in the
